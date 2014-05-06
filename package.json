@@ -1,6 +1,6 @@
 {
   "name": "genify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert passed javascript object to generator",
   "main": "index.js",
   "directories": {
@@ -19,12 +19,11 @@
   "author": "Ivan Pusic",
   "license": "MIT",
   "dependencies": {
-    "co": "^3.0.5",
-    "mocha": "^1.18.2",
-    "thunkify": "^2.1.1"
+    "co": "^3.0.5"
   },
   "devDependencies": {
     "co-mocha": "0.0.3",
+    "mocha": "^1.18.2",
     "should": "~3.3.1"
   }
 }
