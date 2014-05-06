@@ -1,13 +1,13 @@
 {
   "name": "genify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert passed javascript object to generator",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "make"
   },
   "keywords": [
     "genify",
@@ -19,7 +19,8 @@
   "author": "Ivan Pusic",
   "license": "MIT",
   "dependencies": {
-    "co": "^3.0.5"
+    "co": "^3.0.5",
+    "q": "^1.0.1"
   },
   "devDependencies": {
     "co-mocha": "0.0.3",
