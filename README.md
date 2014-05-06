@@ -1,5 +1,6 @@
 genify
 ======
+[![Build Status](https://travis-ci.org/ivpusic/genify.svg?branch=master)](https://travis-ci.org/ivpusic/genify)
 
 Wrapping object generator properties into co
 
