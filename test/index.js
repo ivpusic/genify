@@ -89,5 +89,23 @@ describe('genify', function () {
         ex.stack.should.be.ok;
       }
     });
+
+    it('should contain .then on returned result', function () {
+      var promise = object.readFile('./test/test.txt');
+
+      promise.should.have.property('then');
+    });
+
+    it('should be able to read value from promise', function (done) {
+      var promise = object.readFile('./test/test.txt');
+
+      promise.then(function (res) {
+        if (done) {
+          done();
+        } else {
+          done('No value returned!');
+        }
+      }, done).done();
+    });
   });
 });
