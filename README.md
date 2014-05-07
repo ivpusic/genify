@@ -33,7 +33,7 @@ var object = genify({
 // concatFiles is generator function, and it is using generator power to do some things,
 // and here you are using that power inside normal javascript environment,
 // handling results and errors using promises
-object.concatFiles('./somefile1.txt', './somefile2.txt', './concated.txt').then(function (concated) {
+object.concatFiles('./somefile1.txt', './somefile2.txt', './concated.txt').then(function (res) {
   // do something with result
 }, function (err) {
   // do something with error
