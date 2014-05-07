@@ -1,6 +1,6 @@
 {
   "name": "genify",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Convert passed javascript object to generator",
   "main": "index.js",
   "directories": {

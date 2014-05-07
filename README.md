@@ -4,6 +4,12 @@ genify
 
 Wrapping object generator properties into co
 
+### Installation
+
+```
+npm install genify
+```
+
 ### Example
 
 ```JavaScript
